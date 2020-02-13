@@ -6,7 +6,7 @@ public class List {
 
     private static void copy() {
         ArrayList<String> arr = new ArrayList<String>();
-        try (BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\Наталья\\Desktop\\cities.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("cities.txt"))) {
 
             String sCurrentLine;
 
